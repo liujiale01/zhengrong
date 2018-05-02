@@ -1,0 +1,77 @@
+//主题色
+@color:#00ce54;
+@color2:#009dce;
+//边框色
+@bdcolor: #f2f2f2;
+//边框圆角
+@bdr: 3px;
+@link: #d22eea;
+.fyc(@a: 100%) {
+    Width: @a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.transition(@b: 0.3s;) {
+    transition: all @b ease;
+    -webkit-transition: all @b ease;
+    -moz-transition: all @b ease;
+    -ms-transition: all @b ease;
+}
+
+.boxshadow(@a: 1px, @b: 1px, @c: 3px) {
+    box-shadow: @a @b @c #ccc;
+    -webkit-box-shadow: @a @b @c #ccc;
+}
+.dfyc(@line:3){
+    text-decoration: none; 
+    text-overflow: -o-ellipsis-lastline; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: @line; 
+    -webkit-box-orient: vertical;  
+    vertical-align: top;
+}
+.bd_r(@bdr: 5px;) {
+    border-radius: @bdr;
+    -moz-border-radius: @bdr;
+    -webkit-border-radius: @bdr;
+}
+.abs_c{
+     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nobd{
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+        border: none;
+        outline:none;
+    }
+}
+.bdc{
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+        border: 1px  @bdcolor solid;
+    }
+}
+.getfontsize(@n, @i: 12) when (@i =< @n) {
+  .f@{i} {  
+    font-size: @i/1px;  
+  }  
+  .getfontsize(@n, (@i + 1));  
+} 
+//.getfontsize(24);
+.f0{
+    font-size: 0;
+}
+

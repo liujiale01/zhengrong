@@ -1,0 +1,193 @@
+@import 'variable.less';
+@import 'reset.less';
+@color: #3385ff;
+.login_root{
+    height: 100%;
+}
+.login_bg{
+    height: 100%;
+    //background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg, #670d10 0%,#092756 100%);
+    //background: linear-gradient(135deg, rgba(244,226,156,0) 0%,rgba(59,41,58,1) 100%), linear-gradient(to right, rgba(244,226,156,1) 0%,rgba(130,96,87,1) 100%);
+   // background: radial-gradient(ellipse at top left, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+    background: rgb(105,155,200);
+    background: -moz-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%, rgba(181,197,216,1) 57%);
+    background: -webkit-gradient(radial, top left, 0px, top left, 100%, color-stop(0%,rgba(105,155,200,1)), color-stop(57%,rgba(181,197,216,1)));
+    background: -webkit-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+    background: -o-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+    background: -ms-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+    background: radial-gradient(ellipse at top left, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#699bc8', endColorstr='#b5c5d8',GradientType=1 );
+}
+.login_layer{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    padding: 45px 42px 35px 42px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: auto;
+    background: #fff;
+    border: 1px #d4d4d4 solid;
+    box-shadow: 1px 2px 3px #ccc;
+    border-radius: 2px;
+}
+.login_title{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    color: #323232;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.login_item{
+    display: block;
+    margin-bottom: 28px;
+    position: relative;
+}
+.login_item_label{
+    display: block;
+    font-size: 14px;
+    color: #909090;
+    margin-bottom: 5px;
+}
+.login_item_input{
+    display: block;
+    border: 1px #f2f2f2 solid;
+    line-height: 25px;
+    height: 35px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #323232;
+    font-size: 13px;
+    width: 100%;
+    .transition;
+    &:focus,
+    &:active {
+        outline: 0;
+        border: 1px solid @color;
+        box-shadow: 0px 0px 10px 0px @color;
+    }
+}
+.login_btn_wrap{
+    margin-top: 40px;
+}
+.login_errror_tips{
+    display: block;
+    line-height: 25px;
+    height: 25px;
+    color: #ff5252;
+    position: absolute;
+    bottom: -25px;
+    font-size: 14px;
+    left: 0;
+    display: none;
+}
+.login_btn{
+    float: right;
+    width: 45%;
+    text-align: center;
+    line-height: 30px;
+    height: 40px;
+    background: @color;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    .transition(.5s);
+    &:focus,
+    &:active,
+    &:hover{
+        background: #2863bb;
+    }
+}
+.login_tgoole{
+   color: #007AFF;
+    float: right;
+    line-height: 40px;
+    height: 40px;
+    text-decoration: underline;
+    &:focus,
+    &:hover,
+    &:active {
+        color: #0062CC;
+        text-decoration: underline;
+    }
+}
+.login_remember{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 40px;
+    line-height: 40px;
+    span, input{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 360px){
+    .login_item_label, .login_title{
+        color: #fff;
+    }
+    .login_remember{
+        span{
+            color: #fff;
+        }
+    }
+    .login_layer{
+        height: 400px;
+        width: 360px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 359px){
+    .login_item_label, .login_title{
+        color: #fff;
+    }
+    .login_remember{
+        span{
+            color: #fff;
+        }
+    }
+    .login_layer{
+        height: 400px;
+        width: 320px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,figure{ margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display:block }
+ol,ul{  list-style: none }
+body{  background:#f8f8f8; font:15px/1  "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#333; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -webkit-touch-callout: none; -webkit-user-select: text; -webkit-touch-callout: none;  word-break: break-all; word-wrap: break-word;-webkit-text-size-adjust:auto !important;}
+h1,h2,h3,h4,h5,h6{ font-weight: normal }
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{  font-weight: inherit }
+strong,i,em{ font-weight: normal;font-style: normal; }
+input,select,form { vertical-align:middle; outline:none; }
+img{border:none;vertical-align: top;}
+a, button, input, select, textarea, a:focus, button:focus, input:focus, select:focus, textarea:focus, [onclick] {outline: 0;  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+a {-webkit-touch-callout: none; text-decoration: none; color: #666666;outline: 0; }
+.hidden{width: 0;height: 0;line-height:0;font-size: 0;visibility: hidden;text-indent: -9999px;display: block;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.wrap{width: 100%;height: auto;}
