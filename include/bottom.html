@@ -46,7 +46,7 @@
 		</div>
 		<!--E 侧边栏-->
 		<!--S 医院特色介绍-->
-		<div class="characteristic">
+		<div class="characteristic" style="display: none;">
 			<div class="characteristic_wrap">
 				<ul class="characteristic_menu">
 					<li>
@@ -126,6 +126,13 @@
 				<span class="liuyan_c">取消</span>
 			</div>
 		</div>
+		<!--定时推荐层-->
+		<div class="ggtx_wrap" id="boxx">
+		    <a class="swt_click" onclick="alert('去到聊天对话页面')" href="javascript:void(0);">
+		    	<img src="../img/font.gif" alt="">
+		    </a>
+		    <b class="ggtx_close">&times;</b>
+		</div>
 		<!--E 在线留言弹框-->
 		<script type="text/javascript">
 			window.addEventListener('load', function(){
@@ -145,5 +152,18 @@
 					}, 240)
 					$('.liuyan_wrap').css('top', '-400px');
 				});
+				
+				$('.m-tbar-tab-m-top').click(function(){
+					$('body, html').animate({scrollTop:0}, 300)
+				});
+				
+				//定时推荐层 ggtx_wrap
+				function showGgtx(){
+					$('.ggtx_wrap').show()
+				}
+				 $('.ggtx_close').click(function(){
+				 	$('.ggtx_wrap').hide()
+				 });
+				 setInterval(showGgtx, 30000)
 			}, false);
 		</script>

@@ -19,10 +19,10 @@
 		<div class="navbar_right fr">
 			<!--增加on为当前状态显示-->
 			<a href="index.html" class="navbar_item on" title="网站首页">网站首页</a>
-			<a href="index.html" class="navbar_item" title="精品特惠">精品特惠</a>
+			<a onclick="alert('去聊天页面')" class="navbar_item" title="精品特惠">精品特惠</a>
 			<a href="about.html" class="navbar_item" title="嘉特美介绍">嘉特美介绍</a>
-			<a href="index.html" class="navbar_item" title="安全与术后管理">安全与术后管理</a>
-			<a href="index.html" class="navbar_item" title="行业领先项目">行业领先项目</a>
+			<a onclick="alert('去聊天页面')" class="navbar_item" title="安全与术后管理">安全与术后管理</a>
+			<a onclick="alert('去聊天页面')" class="navbar_item" title="行业领先项目">行业领先项目</a>
 		</div>
 	</div>
 </div>
@@ -230,7 +230,7 @@
 			<div class="projects_r">
 				<div class="projects_r_hd">
 					<div class="title">
-						<p><span>本月最新活动</span>Latest activity</p>
+						<p><span>最新活动</span>Latest activity</p>
 					</div>
 					<div class="new-hd">
 						<div class="new_loop">
@@ -609,7 +609,7 @@
 						
 						<div  class="charac_content_right">
 							<div class="charac_content_right_title">
-								<p><span>本月最新活动</span>Latest activity</p>
+								<p><span>最新活动</span>Latest activity</p>
 							</div>
 							<div class="slideBox harac_slide">
 								<div class="hd harac_slide_hd">
@@ -660,7 +660,7 @@
 						
 						<div  class="charac_content_right">
 							<div class="charac_content_right_title">
-								<p><span>本月最新活动</span>Latest activity</p>
+								<p><span>最新活动</span>Latest activity</p>
 							</div>
 							<div class="slideBox harac_slide">
 								<div class="hd harac_slide_hd">
@@ -711,7 +711,7 @@
 						
 						<div  class="charac_content_right">
 							<div class="charac_content_right_title">
-								<p><span>本月最新活动</span>Latest activity</p>
+								<p><span>最新活动</span>Latest activity</p>
 							</div>
 							<div class="slideBox harac_slide">
 								<div class="hd harac_slide_hd">
@@ -762,7 +762,7 @@
 						
 						<div  class="charac_content_right">
 							<div class="charac_content_right_title">
-								<p><span>本月最新活动</span>Latest activity</p>
+								<p><span>最新活动</span>Latest activity</p>
 							</div>
 							<div class="slideBox harac_slide">
 								<div class="hd harac_slide_hd">
@@ -813,7 +813,7 @@
 						
 						<div  class="charac_content_right">
 							<div class="charac_content_right_title">
-								<p><span>本月最新活动</span>Latest activity</p>
+								<p><span>最新活动</span>Latest activity</p>
 							</div>
 							<div class="slideBox harac_slide">
 								<div class="hd harac_slide_hd">
@@ -882,7 +882,7 @@
 		</div>
 		<!--E 侧边栏-->
 		<!--S 医院特色介绍-->
-		<div class="characteristic">
+		<div class="characteristic" style="display: none;">
 			<div class="characteristic_wrap">
 				<ul class="characteristic_menu">
 					<li>
@@ -962,6 +962,13 @@
 				<span class="liuyan_c">取消</span>
 			</div>
 		</div>
+		<!--定时推荐层-->
+		<div class="ggtx_wrap" id="boxx">
+		    <a class="swt_click" onclick="alert('去到聊天对话页面')" href="javascript:void(0);">
+		    	<img src="../img/font.gif" alt="">
+		    </a>
+		    <b class="ggtx_close">&times;</b>
+		</div>
 		<!--E 在线留言弹框-->
 		<script type="text/javascript">
 			window.addEventListener('load', function(){
@@ -981,6 +988,19 @@
 					}, 240)
 					$('.liuyan_wrap').css('top', '-400px');
 				});
+				
+				$('.m-tbar-tab-m-top').click(function(){
+					$('body, html').animate({scrollTop:0}, 300)
+				});
+				
+				//定时推荐层 ggtx_wrap
+				function showGgtx(){
+					$('.ggtx_wrap').show()
+				}
+				 $('.ggtx_close').click(function(){
+				 	$('.ggtx_wrap').hide()
+				 });
+				 setInterval(showGgtx, 30000)
 			}, false);
 		</script>
 		<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>

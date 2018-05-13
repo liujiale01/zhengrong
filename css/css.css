@@ -184,7 +184,7 @@ img {
   color: #004d93;
 }
 .color_ff {
-  color: #00ce54;
+  color: #cba374;
 }
 .f16 {
   font-size: 16px;
@@ -243,7 +243,7 @@ img {
   margin-bottom: 25px;
 }
 .btn {
-  background: #00ce54;
+  background: #cba374;
   -moz-border-radius: 20px;
   border-radius: 20px;
   display: block;
@@ -328,7 +328,7 @@ img {
   color: #fff;
 }
 .syp_p3 .syp_p3_btn a.p3_btn1 {
-  background: #00ce54;
+  background: #cba374;
 }
 .syp_p3 .syp_p3_btn a.p3_btn2 {
   background: #dc2625;
@@ -374,7 +374,7 @@ img {
   line-height: 68px;
   text-align: center;
   display: block;
-  background: #00ce54;
+  background: #cba374;
   color: #fff;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -460,7 +460,7 @@ b.icon-avatar {
   text-indent: .5em;
 }
 .block2 {
-  background: #00ce54;
+  background: #cba374;
 }
 .block3 {
   background: #ff8a00;
@@ -559,6 +559,7 @@ b.icon-avatar {
   margin-top: 44px;
 }
 .navbar_right .navbar_item {
+  cursor: pointer;
   display: inline-block;
   padding: 0 10px;
   line-height: 30px;
@@ -572,7 +573,7 @@ b.icon-avatar {
   transition: background-color ease 0.5s;
 }
 .navbar_right .navbar_item:hover {
-  background: #009dce;
+  background: #855230;
   color: #fff;
 }
 .navbar_right .navbar_item.on {
@@ -626,7 +627,7 @@ b.icon-avatar {
   text-align: center;
   overflow: hidden;
   position: absolute;
-  background: #00ce54;
+  background: #cba374;
   left: 0;
   right: 0;
   margin: auto;
@@ -638,7 +639,7 @@ b.icon-avatar {
 }
 .nav_menu_wrap.fixed {
   height: 43px;
-  background: #00ce54;
+  background: #cba374;
   position: fixed;
   top: 0;
 }
@@ -667,7 +668,7 @@ b.icon-avatar {
   content: '';
   width: 80%;
   height: 80%;
-  background: #009dce;
+  background: #855230;
   position: absolute;
   left: 0;
   right: 0;
@@ -922,13 +923,13 @@ b.icon-avatar {
   font-size: 12px;
   display: inline-block;
   width: 100px;
-  background: #00ce54;
+  background: #cba374;
   text-align: center;
   margin-right: 1px;
 }
 .projects .projects_news .news_title .news_title_list li.hover {
   color: #59341c;
-  background: #009dce;
+  background: #855230;
 }
 .projects .projects_news .news_title .news_title_list li a {
   color: #fff;
@@ -1221,12 +1222,12 @@ b.icon-avatar {
   float: right;
   width: 464px;
   height: 502px;
-  background-color: #00ce54;
+  background-color: #cba374;
   overflow: hidden;
 }
 .expert .nav {
   height: 53px;
-  background-color: #1ebbec;
+  background-color: #a3704e;
 }
 .expert .nav .nav_item {
   height: 53px;
@@ -1244,7 +1245,7 @@ b.icon-avatar {
   -ms-transition: all 0.3s ease;
 }
 .expert .nav .nav_item.on {
-  background: #009dce;
+  background: #855230;
 }
 .expert .nav .nav_item i {
   width: 30px;
@@ -1622,7 +1623,7 @@ b.icon-avatar {
   padding: 0 15px;
   height: 44px;
   line-height: 44px;
-  background: #00ce54;
+  background: #cba374;
   color: #323232;
   text-align: center;
   margin-bottom: 2px;
@@ -1650,17 +1651,17 @@ b.icon-avatar {
 }
 .charac_left a.active,
 .charac_left a.on {
-  background: #009dce;
+  background: #855230;
   color: #fff;
 }
 .charac_left a.active:before,
 .charac_left a.on:before {
-  border-left: 9px #009dce solid;
+  border-left: 9px #855230 solid;
 }
 .charac_right_top {
   display: block;
   width: 100%;
-  background: #00ce54;
+  background: #cba374;
   height: 32px;
 }
 .charac_right_top_item {
@@ -1691,7 +1692,7 @@ b.icon-avatar {
   background: transparent;
 }
 .charac_right_top_item:hover {
-  background: #009dce;
+  background: #855230;
   color: #fff;
 }
 .charac_content_left {
@@ -1840,7 +1841,7 @@ b.icon-avatar {
   background: #cbcbcb;
 }
 .harac_slide_hd li.on {
-  background: #00ce54;
+  background: #cba374;
 }
 .charac_tab > .tempWrap {
   display: inline-block;
@@ -1879,7 +1880,7 @@ b.icon-avatar {
   height: 8px;
   -moz-border-radius: 4px;
        border-radius: 4px;
-  background: #00ce54;
+  background: #cba374;
   margin: 0 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -1888,7 +1889,7 @@ b.icon-avatar {
   -ms-transition: all 0.3s ease;
 }
 .banner_bd b.on {
-  background: #009dce;
+  background: #855230;
   -webkit-transform: scale(1.2);
      -moz-transform: scale(1.2);
       -ms-transform: scale(1.2);
@@ -2039,11 +2040,11 @@ b.icon-avatar {
   height: 10px;
   -moz-border-radius: 50%;
        border-radius: 50%;
-  background: #00ce54;
+  background: #cba374;
   margin: 0 5px;
 }
 .yishi_yuandian b.on {
-  background: #009dce;
+  background: #855230;
 }
 .yishi_img {
   display: block;
@@ -2065,7 +2066,7 @@ b.icon-avatar {
   vertical-align: top;
   font-size: 14px;
   line-height: 35px;
-  background: #00ce54;
+  background: #cba374;
   color: #fff;
   padding: 0 15px;
   height: 35px;
@@ -2081,14 +2082,14 @@ b.icon-avatar {
   border-left: 0 solid transparent;
   border-right: 25px solid transparent;
   border-top: 35px solid transparent;
-  border-bottom: 35px #00ce54 solid;
+  border-bottom: 35px #cba374 solid;
 }
 .about_nav {
   display: block;
   margin: auto;
   width: 1180px;
   height: 40px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 40px;
   margin-top: 20px;
 }
@@ -2861,14 +2862,14 @@ input.liuyan_right {
   -ms-transition: all 0.3s ease;
 }
 input.liuyan_right:hover {
-  border: 1px #1eec72 solid;
-  -moz-box-shadow: 0px 0px 10px 0px #1eec72;
-       box-shadow: 0px 0px 10px 0px #1eec72;
+  border: 1px #e9c192 solid;
+  -moz-box-shadow: 0px 0px 10px 0px #e9c192;
+       box-shadow: 0px 0px 10px 0px #e9c192;
 }
 input.liuyan_right:focus {
-  border: 1px #00ce54 solid;
-  -moz-box-shadow: 0px 0px 10px 0px #00ce54;
-       box-shadow: 0px 0px 10px 0px #00ce54;
+  border: 1px #cba374 solid;
+  -moz-box-shadow: 0px 0px 10px 0px #cba374;
+       box-shadow: 0px 0px 10px 0px #cba374;
 }
 .liuyan_item_content {
   border-bottom: none;
@@ -2886,14 +2887,14 @@ input.liuyan_right:focus {
   -ms-transition: all 0.3s ease;
 }
 .liuyan_item_text:hover {
-  border: 1px #1eec72 solid;
-  -moz-box-shadow: 0px 0px 10px 0px #1eec72;
-       box-shadow: 0px 0px 10px 0px #1eec72;
+  border: 1px #e9c192 solid;
+  -moz-box-shadow: 0px 0px 10px 0px #e9c192;
+       box-shadow: 0px 0px 10px 0px #e9c192;
 }
 .liuyan_item_text:focus {
-  border: 1px #00ce54 solid;
-  -moz-box-shadow: 0px 0px 10px 0px #00ce54;
-       box-shadow: 0px 0px 10px 0px #00ce54;
+  border: 1px #cba374 solid;
+  -moz-box-shadow: 0px 0px 10px 0px #cba374;
+       box-shadow: 0px 0px 10px 0px #cba374;
 }
 .liuyan_sex {
   display: inline-block;
@@ -2934,14 +2935,14 @@ input.liuyan_right:focus {
 .liuyan_foot .liuyan_q {
   color: #fff;
   margin-right: 15px;
-  background: #00ce54;
+  background: #cba374;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
 }
 .liuyan_foot .liuyan_q:hover {
-  background: #009c22;
+  background: #997142;
 }
 .liuyan_foot .liuyan_c {
   background: #d4d4d4;
@@ -2964,4 +2965,69 @@ input.liuyan_right:focus {
   top: 0;
   color: #aaa;
   cursor: pointer;
+}
+#boxx {
+  width: 660px;
+  height: 425px;
+  -moz-border-radius: 20px;
+       border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  margin: -221px auto 0 -291px;
+  position: fixed;
+  background: url(http://www.meilianchen.com/swt/images/swt_bg.gif) no-repeat 0 0;
+  display: none;
+  z-index: 999;
+}
+.swt_click {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+.swt_click img {
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.ggtx_wrap .ggtx_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  color: #666;
+  text-align: center;
+  line-height: 34px;
+  font-size: 30px;
+  z-index: 10;
+  cursor: pointer;
+}
+.ggtx_img {
+  width: 100%;
+  height: 425px;
+  -moz-border-radius: 20px;
+       border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  margin: -221px auto 0 -291px;
+  position: fixed;
+  background: url('http://www.meilianchen.com/swt/images/swt_bg.gif') no-repeat 0 0;
+}
+.pagetion {
+  display: block;
+}
+.pagetion .pagetion_item {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #0000af;
+}
+.pagetion .pagetion_item:hover {
+  color: blue;
+  text-decoration: underline;
 }

@@ -12,7 +12,7 @@ gulp.task('connect', function () {
 });
 //监听html 变化
 gulp.task('html', function () {
-  gulp.watch(['./page/*.html'], function(e){
+  gulp.watch(['./page/*.html', './page/zhuanti/*.html'], function(e){
   	gulp.src(e.path)
   	.pipe(include({pre:'@@',basepath:'@file'}))
   	.pipe(gulp.dest('./dist'))
